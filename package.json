@@ -1,0 +1,38 @@
+{
+  "name": "academix-core",
+  "version": "1.0.0",
+  "description": "Academix Core monorepo",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "turbo": "^2.11.7",
+    "vitest": "^5.0.3"
+  },
+  "packageManager": "npm@11.17.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BangEjak04/academix-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BangEjak04/academix-core/issues"
+  },
+  "homepage": "https://github.com/BangEjak04/academix-core#readme"
+}

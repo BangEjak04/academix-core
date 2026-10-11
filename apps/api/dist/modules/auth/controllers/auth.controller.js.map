@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/modules/auth/controllers/auth.controller.ts"],"sourcesContent":["import { Controller } from \"@nestjs/common\";\r\n\r\n@Controller(\"auth\")\r\nexport class AuthController {\r\n  constructor() {}\r\n}\r\n"],"names":["AuthController"],"mappings":";;;;+BAGaA;;;eAAAA;;;wBAHc;;;;;;;;;;;;;;;;;;;AAGpB,MAAMA;IACX,aAAc,CAAC;AACjB"}

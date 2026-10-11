@@ -1,0 +1,14 @@
+{
+  "extends": "@repo/typescript-config/nestjs.json",
+  "compilerOptions": {
+    "resolvePackageJsonExports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "incremental": true,
+    "strictPropertyInitialization": false,
+    "types": ["node"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "useDefineForClassFields": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false,
+    "target": "ES2023"
+  }
+}
